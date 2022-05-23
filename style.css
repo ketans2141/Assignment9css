@@ -10,10 +10,11 @@
 header{
     background-color: rgb(197, 89, 89);
     color: white;
+    display: block;
     height: 80px;
     padding: 0px 50px;
-    position: sticky;
-    top: 0px;
+   position: sticky;
+   top: 0%;
 }
 .assign{
     font-size: 40px;
@@ -31,6 +32,9 @@ header{
     font-size: 23px;
     padding: 20px;
     line-height: 60px;
+}
+a:hover{
+    font-size: 20px;
 }
 .clearfix::before,.clearfix::after{
     content: "";
@@ -196,12 +200,4 @@ header{
     color: rgb(80, 80, 80);
     padding-top: 30px;
     padding-left: 50px;
-
-}
-.clearfix::before,.clearfix::after{
-    content: "";
-    display: block;
-}
-.clearfix::after{
-    clear: both;
 }
