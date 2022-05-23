@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 10px;
+}
+header{
+    background-color: rgb(197, 89, 89);
+    color: white;
+    height: 80px;
+    padding: 0px 50px;
+    position: sticky;
+    top: 0px;
+}
+.assign{
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    float: left;
+}
+.navbar{
+    float: right;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding: 20px;
+    line-height: 60px;
+}
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: block;
+}
+.clearfix::after{
+    clear: both;
+}
+.container1{
+    background-color: rgb(197, 89, 89);
+    height: 350px;
+    position: relative;
+}
+.title{
+    font-size: 60px;
+   
+}
+.heading{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    right:30%;
+}
+.container2{
+    height: 350px;
+    position: relative;
+}
+.block{
+    width: 80%;
+    float: right 30px;
+    margin: 80px auto;
+}
+.part{
+    width: 30%;
+    float: right;
+}
+.info{
+    float: left;
+    width: 60%;
+    padding: 10px;   
+}
+.parahead{
+    color:rgb(197, 89, 89); 
+    font-size: 25px;
+    margin-bottom: 10%;
+    
+}
+.button{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color:rgb(197, 89, 89) ;
+    padding: 5px 30px;
+   
+}
+.button:hover{
+    font-size: 18px;
+}
+.infopara{
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.container3{
+    background-color:rgb(197, 89, 89) ;
+    height:600px;
+}
+.head2{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.title2{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.name{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+.imgbox{
+    border: 1px solid white;
+    width: 250px;
+    height: 350px;
+    margin:30px 70px;
+    text-align: center;
+    color: white;
+    float: right;
+}
+.img1{
+    width: 60%;
+    padding: 30px 50px;
+    border-radius: 50%;
+}
+.imgname{
+    font-size: 25px;
+}
+.img2{
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: 80px;
+    border-radius: 10px;
+}
+.container4{
+    height: 550px;
+    width: auto;
+}
+.head3{
+    text-align: center;
+    color: rgb(197, 89, 89);
+    margin: 50px 0px 60px;
+    font-size: 20px;
+}
+.txt{
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-right: 250px;
+
+}
+.img3{
+    width: 400px;
+    height: auto;
+}
+.imghead{
+    margin-bottom: 10px;
+    color:rgb(197, 89, 89) ;
+}
+.back-to-top{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: hsl(210, 14%, 73%);
+    padding: 0.25rem;
+}
+.toparrow{
+    position: fixed;
+    top: 90%;
+    right: 20px;
+}
+.bx{
+    color:rgb(197, 89, 89);
+    font-size: 30px;
+    padding: 0 6px;
+}
+.bx:hover{
+    font-size: 27px;
+}
+.footerul{
+    float: right;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.copy{
+    color: rgb(80, 80, 80);
+    padding-top: 30px;
+    padding-left: 50px;
+
+}
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: block;
+}
+.clearfix::after{
+    clear: both;
+}
